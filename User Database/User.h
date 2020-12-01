@@ -24,7 +24,7 @@ public:
     std::string getUsername();
     void setPassword(std::string p_Password);
     bool checkPassword(std::string p_password);
-    std::string User::getEmail();
+    std::string getEmail();
     void setEmail(std::string p_email);
     void setLocation(float p_x,float p_y);
     std::pair<float,float> getLocation();

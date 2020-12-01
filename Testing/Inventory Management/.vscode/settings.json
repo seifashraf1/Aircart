@@ -1,0 +1,11 @@
+{
+        "files.associations": {
+                "*.asm": "asm",
+                "vector": "cpp",
+                "iosfwd": "cpp",
+                "iterator": "cpp",
+                "map": "cpp",
+                "iostream": "cpp",
+                "string": "cpp"
+        }
+}
