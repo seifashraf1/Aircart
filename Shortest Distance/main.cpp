@@ -6,7 +6,7 @@ using namespace std;
 
 vector<int> dist, parent;
 
-void dijkstra(int src, vector<vector<pair<int, int>> > graph){
+void dijkstra(int src, vector<vector<pair<int, int> > > graph){
     int N = graph.size();
     dist.resize(N);
     parent.resize(N);
@@ -98,4 +98,5 @@ int main(){
 
     dijkstra(0, adj);
     printSolution(dest);
+    printf("\n");
 }
